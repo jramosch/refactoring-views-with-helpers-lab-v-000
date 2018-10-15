@@ -1,5 +1,5 @@
 module SongsHelper
-  def display_artist
+  def display_artist(song)
     if song.artist.present?
       song.artist_name
     else
